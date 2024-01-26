@@ -12,7 +12,7 @@ body {
 }
 .main {
   padding: 0px !important;
-  background-color: gray;
+  /* background-color: gray; */
 }
 /* ===========navbar=============== */
 .navbare {
@@ -210,4 +210,69 @@ input[type="text"] {
   font-weight: bolder;
   color: red;
   font-size: 14px;
+}
+/* ==========slider-end=============== */
+/* =========content-1============== */
+.content-1{
+    /* background-color: red; */
+    height: 500px;
+    margin-top: 100px;
+}
+.h-one p{
+    /* background-color: blue; */
+    font-size: 42px;
+    font-weight: bold;
+    color: black;
+
+}
+.h-two{
+    /* background-color: chocolate; */
+    height: 200px;
+    font-size: 26px;
+    font-weight: bold;
+    color: black;
+    /* height: 200px; */
+}
+.h-two p{
+    margin-top: 10px;
+}
+.h-two i{
+    color: red;
+}
+.r-hdn{
+    margin-bottom: -80px;
+}
+.left-c1{
+    width: 100%;
+    height: 100%;
+}
+.left-c1 img{
+width: 100%;
+height: 100%;
+object-fit: contain;
+filter: brightness(50%);
+}
+.right-c1{
+width: 100%;
+height: 100%;
+}
+.right-c1 img{
+    margin-top: 5px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(50%);
+}
+.right-c2{
+    width: 100%;
+    height: 50%;
+  
+}
+.right-c2 img{
+    margin-top: 5px;
+    /* margin-bottom: 10px; */
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    filter: brightness(50%);
 }
