@@ -122,3 +122,12 @@
     font-weight: lighter;
   }
 }
+@media only screen and (max-width: 358px)
+{
+    .slid-text-down {
+        bottom: 10px !important;
+        margin-left: 20px !important;
+        letter-spacing: 3px !important;
+        color: white;
+      }
+}
