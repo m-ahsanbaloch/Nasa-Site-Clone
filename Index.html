@@ -1,12 +1,147 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Nasa-By-Ahsan</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    
-</body>
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous"> -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="bootstrap.css" />
+    <link rel="stylesheet" href="mediaq910.css">
+    <link rel="stylesheet" href="media768.css">
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container-xxl main">
+      <!-- =================Navigation====================== -->
+
+      <div class="container-xxl navbare">
+        <div class="navi-left">
+          <div class="hamburg"><i class="fa-solid fa-bars fa-2x"></i></div>
+          <div class="dropdown drp-dn">
+            <button
+              class="btn btn-secondary dropdown-toggle"
+              type="button"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+            >
+              Explore
+            </button>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Github</a></li>
+              <li><a class="dropdown-item" href="#">LinkedIn</a></li>
+              <li><a class="dropdown-item" href="#">Projects</a></li>
+            </ul>
+          </div>
+          <!-- ======input=== -->
+          <div class="input1">
+            <input placeholder="Search..." class="input-style" type="text" />
+          </div>
+        </div>
+        <!--====input====-->
+        <!--=====================navi-center===========-->
+        <div class="navi-center">
+          <img src="assets/images/nasa-logo@2x.png" alt="" />
+        </div>
+        <!--=====================navi-center===========-->
+        <!--===============navi-right===============-->
+        <div class="navi-right">
+          <div class="dropdown drp-dn-2">
+            <button
+              class="btn btn-secondary dropdown-toggle"
+              type="button"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+            >
+            News & Events
+            </button>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Github</a></li>
+              <li><a class="dropdown-item" href="#">LinkedIn</a></li>
+              <li><a class="dropdown-item" href="#">Projects</a></li>
+            </ul>
+          </div>
+          <!-- ---------- -->
+          <div class="dropdown drp-dn-2">
+            <button
+              class="btn btn-secondary dropdown-toggle"
+              type="button"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+            >
+              Multimedia
+            </button>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Github</a></li>
+              <li><a class="dropdown-item" href="#">LinkedIn</a></li>
+              <li><a class="dropdown-item" href="#">Projects</a></li>
+            </ul>
+          </div>
+          <!----------------->
+          <div class="nasaplus">
+            <h4>NASA+ <span>Live</span></h4>
+          </div>
+          <div class="magnifier">
+            <i class="fa-solid fa-magnifying-glass fa-2x"></i>
+          </div>
+        </div>
+        <!--===============navi-right===============-->
+
+      
+      </div>
+      <!-- =================Navigation====================== -->
+      <!-- ======slider===== -->
+      <div class="container-xxl slider">
+        <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="assets/images/NHQ202301260007~large.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="assets/images/NHQ202301260007~large.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item ">
+              <img src="assets/images/NHQ202301260007~large.jpg" class="d-block w-100" alt="...">
+            </div>
+          </div>
+        </div>
+        <div class="slid-text">
+          <div class="row">
+            <div class="col-12 col-md-12 col-lg-5 col-xl-5 col-xxl-5 slid-hdn-main"><p>
+              Science on the Surface of the Moon</p>
+            <span>
+             <p> The Commercial Lunar Payload Services (CLPS) initiative works with American companies to deliver scientific, exploration, and technology payloads to the Moon’s surface and orbit.</p></span>
+             <button type="button" class="btn btn-danger col-12 col-md-6 col-lg-4 col-xl-4 col-xxl-4">Learn More</button>
+        
+            </div>
+            <div class="col-7"></div>
+            <div class="slid-text-down">
+            <div class="row gap-3">
+              <div class="col-12 col-sm-12 col-md-6 col-lg-3 col-xl-3 col-xxl-3 slide-dwn">
+                <p>High Quality Observations</p>
+                <span><p>Explore The Mission <i class="fa-solid fa-arrow-right"></i></p></span>
+              </div>
+              <div class="col-12 col-sm-12 col-md-6 col-lg-3 col-xl-3 col-xxl-3 slide-dwn"><p>Crewed Flight</p>
+                <span><p>Discover The Science <i class="fa-solid fa-arrow-right"></i></p></span>
+              </div>
+              <div class="col-12 col-sm-12 col-md-6 col-lg-3 col-xl-3 col-xxl-3 slide-dwn"><p>Crewed Flight</p>
+                <span><p>GateWay <i class="fa-solid fa-arrow-right"></i></p></span>
+              </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- ======slider===== -->
+
+    </div>
+    <script
+      src="https://kit.fontawesome.com/c281dbb5d3.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>

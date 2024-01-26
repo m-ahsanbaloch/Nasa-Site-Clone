@@ -1,0 +1,52 @@
+@media only screen and (max-width: 946px) {
+    .drp-dn{
+        display: none;
+    }
+    .hamburg{
+        display: block !important;
+    }
+    .input1{
+        display: none;
+    }
+    .drp-dn-2{
+        display: none;
+    }
+    .nasaplus{
+        display: none;
+    }
+    .magnifier{
+        display: block !important;
+        color: white;
+    }
+    .slid-hdn-main{
+        margin-top: 40px !important;
+        color: white;
+        font-size:35px !important;
+        text-align: left;
+        font-weight: bold;
+        margin-left: 20px;
+    
+    }
+    .slid-hdn-main span>p{
+        font-size: 14px !important;
+        font-weight: normal;
+        line-height: -5px;
+    }
+    .slide-dwn{
+        border-top: solid 1px gray;
+        
+    }
+    .slide-dwn p{
+        margin-top: 5px;
+    font-size: 11px !important;
+    text-align: justify;
+    font-weight: lighter;
+    
+    }
+    .slid-text-down{
+          margin-left: 20px !important;
+        margin-top: 120px !important;
+        letter-spacing: 5px;
+        color: white;
+    }
+}
