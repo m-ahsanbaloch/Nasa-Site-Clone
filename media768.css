@@ -1,8 +1,8 @@
 @media only screen and (max-width: 768px) {
   .slid-hdn-main {
-    margin-top: 25px !important;
+    margin-top: 10px !important;
     color: white;
-    font-size: 30px !important;
+    font-size: 20px !important;
     text-align: left;
     font-weight: bold;
     margin-left: 20px;
@@ -30,7 +30,7 @@
 }
 @media only screen and (max-width: 600px) {
   .slid-hdn-main {
-    margin-top: 20px !important;
+    margin-top: 80px !important;
     color: white;
     font-size: 25px !important;
     text-align: left;
@@ -65,7 +65,7 @@
 }
 @media only screen and (max-width: 500px) {
   .slid-hdn-main {
-    margin-top: 2px !important;
+    margin-top: 140px !important;
     color: white;
     font-size: 16px !important;
     text-align: left;
@@ -93,7 +93,7 @@
 }
 @media only screen and (max-width: 440px) {
   .slid-hdn-main {
-    margin-top: 2px !important;
+    margin-top: 100px !important;
     color: white;
     font-size: 19px !important;
     text-align: left;
@@ -120,6 +120,11 @@
     font-size: 8px !important;
     text-align: justify;
     font-weight: lighter;
+  }
+  .slide-dwn i {
+    margin-top: 10px;
+    font-size: 8px !important;
+    
   }
 }
 @media only screen and (max-width: 358px)

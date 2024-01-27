@@ -87,6 +87,7 @@ input[type="text"] {
 /* =======navi=====center===== */
 .navi-center {
   width: 10%;
+  margin-right: 20px;
 }
 .navi-center img {
   width: 70px;
@@ -142,6 +143,8 @@ input[type="text"] {
 }
 .slider img {
   width: 100% !important;
+  height: 100vh;
+  object-fit: cover;
   filter: brightness(50%);
 }
 .carousel-fade .active.carousel-item-end,
@@ -170,20 +173,20 @@ input[type="text"] {
 }
 .slid-text {
   position: absolute;
-  width: 90%;
-  height: 100%;
+  /* width: 100%; */
+  height: 100vh;
   top: 0px;
 }
 .slid-hdn-main {
-  margin-top: 70px;
+  margin-top: 35px;
   color: white;
-  font-size: 50px;
+  font-size: 35px;
   text-align: left;
   font-weight: bold;
   margin-left: 20px;
 }
 .slid-hdn-main span > p {
-  font-size: 15px;
+  font-size: 12px;
   font-weight: normal;
   line-height: -5px;
 }
@@ -198,6 +201,7 @@ input[type="text"] {
 }
 .slid-text-down {
   position: absolute;
+  /* height: 0vh; */
   bottom: 0px;
   margin-left: 20px !important;
   letter-spacing: 5px;
@@ -210,6 +214,7 @@ input[type="text"] {
   font-weight: bolder;
   color: red;
   font-size: 14px;
+
 }
 /* ==========slider-end=============== */
 /* =========content-1============== */
