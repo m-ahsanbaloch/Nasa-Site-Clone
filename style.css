@@ -145,7 +145,7 @@ input[type="text"] {
   width: 100% !important;
   height: 100vh;
   object-fit: cover;
-  filter: brightness(50%);
+  filter: brightness(35%);
 }
 .carousel-fade .active.carousel-item-end,
 .carousel-fade .active.carousel-item-start {
@@ -220,8 +220,9 @@ input[type="text"] {
 /* =========content-1============== */
 .content-1{
     /* background-color: red; */
-    height: 800px;
+    /* height: 800px; */
     margin-top: 100px;
+    
 }
 .h-one p{
     /* background-color: blue; */
@@ -328,10 +329,66 @@ height: 100%;
     /* margin-top: 5px; */
     /* margin-bottom: 10px; */
     width: 100%;
-    height: 100%;
+    /* height: 100%; */
     object-fit: cover;
-    filter: brightness(50%);
+    filter: brightness(40%);
 }
 .right-c2-2{
   margin-top: 6px;
+}
+.circle-row{
+  margin-top: 25px;
+}
+.circle-main1{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  /* background-color: red; */
+
+}
+.circle-right{
+  margin-left: 10px;
+}
+.circle-right span>p{
+  letter-spacing: 5px;
+  font-size: 12px;
+  margin-bottom: 5px;
+}
+.circle-right span+p{
+font-size: 15px;
+font-weight: bold;
+margin-bottom: 5px;
+}
+.circle-right i{
+  letter-spacing: 5px;
+  font-size: 11px;
+  color: #6666;
+  }
+.circle1 img{
+width: 80px;
+object-fit: cover;
+border-radius: 100px;
+}
+
+.content3-img{
+  padding: 0px !important;
+  width: 100%;
+  position: relative;
+  margin: 20px 0px 0px 0px;
+}
+.content3-img img{
+  width: 100%;
+  object-fit: cover;
+  filter: brightness(50%);
+}
+.content3-text{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0px;
+}
+.hdnc3{
+  font-size: 100px;
+  color: white;
+  font-weight: bold;
 }

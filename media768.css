@@ -39,6 +39,12 @@
   height: 30% !important;
 
 }
+/* .circle-row{
+  margin-top: -350px !important;
+} */
+.circle-main1{
+  margin-bottom: 10px !important;
+}
 }
 @media only screen and (max-width: 600px) {
   .slid-hdn-main {
