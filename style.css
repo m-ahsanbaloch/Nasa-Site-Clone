@@ -388,7 +388,16 @@ border-radius: 100px;
   top: 0px;
 }
 .hdnc3{
-  font-size: 100px;
+  margin: 100px 0px 0px 50px;
+  font-size: 5rem;
   color: white;
   font-weight: bold;
+}
+.hdnc3 span>p{
+  margin-top: 50px;
+  font-size: 1rem;
+  color: white;
+  font-weight: normal;
+  line-height: 40px;
+
 }
