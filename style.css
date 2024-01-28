@@ -214,47 +214,44 @@ input[type="text"] {
   font-weight: bolder;
   color: red;
   font-size: 14px;
-
 }
 /* ==========slider-end=============== */
 /* =========content-1============== */
-.content-1{
-    /* background-color: red; */
-    /* height: 800px; */
-    margin-top: 100px;
-    
+.content-1 {
+  /* background-color: red; */
+  /* height: 800px; */
+  margin-top: 100px;
 }
-.h-one p{
-    /* background-color: blue; */
-    font-size: 42px;
-    font-weight: bold;
-    color: black;
-
+.h-one p {
+  /* background-color: blue; */
+  font-size: 42px;
+  font-weight: bold;
+  color: black;
 }
-.h-two{
-    /* background-color: chocolate; */
-    height: 200px;
-    font-size: 26px;
-    font-weight: bold;
-    color: black;
-    /* height: 200px; */
+.h-two {
+  /* background-color: chocolate; */
+  height: 200px;
+  font-size: 26px;
+  font-weight: bold;
+  color: black;
+  /* height: 200px; */
 }
-.h-two p{
-    margin-top: 10px;
+.h-two p {
+  margin-top: 10px;
 }
-.h-two i{
-    color: red;
+.h-two i {
+  color: red;
 }
-.r-hdn{
-    margin-bottom: -80px;
+.r-hdn {
+  margin-bottom: -80px;
 }
-.left-c1{
+.left-c1 {
   position: relative;
 
-    width: 100%;
-    height: 100%;
+  width: 100%;
+  height: 100%;
 }
-.left-c1-in{
+.left-c1-in {
   position: absolute;
   width: 100%;
   height: 100%;
@@ -265,31 +262,31 @@ input[type="text"] {
   justify-content: space-between;
   color: white;
 }
-.left-hdn-1{
+.left-hdn-1 {
   font-size: 14px;
   letter-spacing: 2px;
   text-transform: uppercase;
   margin: 20px 0px 0px 10px;
 }
-.left-hdn-2{
+.left-hdn-2 {
   font-size: 18px;
   font-weight: bold;
   letter-spacing: 2px;
   text-transform: uppercase;
   margin: 0px 0px 5px 10px;
 }
-.left-c1 img{
-width: 100%;
-height: 100%;
-/* object-fit: contain; */
-filter: brightness(30%);
+.left-c1 img {
+  width: 100%;
+  height: 100%;
+  /* object-fit: contain; */
+  filter: brightness(30%);
 }
-.right-c1{
+.right-c1 {
   position: relative;
-width: 100%;
-height: 100%;
+  width: 100%;
+  height: 100%;
 }
-.right-c2-in{
+.right-c2-in {
   position: absolute;
   width: 100%;
   height: 100%;
@@ -300,114 +297,161 @@ height: 100%;
   justify-content: space-between;
   color: white;
 }
-.right-hdn-1{
+.right-hdn-1 {
   font-size: 14px;
   letter-spacing: 2px;
   text-transform: uppercase;
   margin: 20px 0px 0px 10px;
 }
-.right-hdn-2{
+.right-hdn-2 {
   font-size: 18px;
   font-weight: bold;
   letter-spacing: 2px;
   text-transform: uppercase;
   margin: 0px 0px 5px 10px;
 }
-.right-c1 img{
-    /* margin-top: 5px; */
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    filter: brightness(40%);
+.right-c1 img {
+  /* margin-top: 5px; */
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  filter: brightness(40%);
 }
-.right-c2{
-    width: 100%;
-    /* height: 49%; */
-  
+.right-c2 {
+  width: 100%;
+  /* height: 49%; */
 }
-.right-c2 img{
-    /* margin-top: 5px; */
-    /* margin-bottom: 10px; */
-    width: 100%;
-    /* height: 100%; */
-    object-fit: cover;
-    filter: brightness(40%);
+.right-c2 img {
+  /* margin-top: 5px; */
+  /* margin-bottom: 10px; */
+  width: 100%;
+  /* height: 100%; */
+  object-fit: cover;
+  filter: brightness(40%);
 }
-.right-c2-2{
+.right-c2-2 {
   margin-top: 6px;
 }
-.circle-row{
+.circle-row {
   margin-top: 25px;
 }
-.circle-main1{
+.circle-main1 {
   width: 100%;
   display: flex;
   align-items: center;
   /* background-color: red; */
-
 }
-.circle-right{
+.circle-right {
   margin-left: 10px;
 }
-.circle-right span>p{
+.circle-right span > p {
   letter-spacing: 5px;
   font-size: 12px;
   margin-bottom: 5px;
 }
-.circle-right span+p{
-font-size: 15px;
-font-weight: bold;
-margin-bottom: 5px;
+.circle-right span + p {
+  font-size: 15px;
+  font-weight: bold;
+  margin-bottom: 5px;
 }
-.circle-right i{
+.circle-right i {
   letter-spacing: 5px;
   font-size: 11px;
   color: #6666;
-  }
-.circle1 img{
-width: 80px;
-object-fit: cover;
-border-radius: 100px;
+}
+.circle1 img {
+  width: 80px;
+  object-fit: cover;
+  border-radius: 100px;
 }
 
-.content3-img{
+.content3-img {
   padding: 0px !important;
   width: 100%;
   position: relative;
   margin: 20px 0px 0px 0px;
 }
-.content3-img img{
+.content3-img img {
   width: 100%;
   object-fit: cover;
   filter: brightness(50%);
 }
-.content3-text{
+.content3-text {
   position: absolute;
   width: 100%;
   height: 100%;
   top: 0px;
 }
-.hdnc3{
+.hdnc3 {
   margin: 100px 0px 0px 50px;
   font-size: 5rem;
   color: white;
   font-weight: bold;
 }
-.hdnc3 span>p{
+.hdnc3 span > p {
   margin-top: 50px;
   font-size: 1rem;
   color: white;
   font-weight: normal;
   line-height: 40px;
-
 }
-.application p{
+.application p {
   cursor: pointer;
   font-size: 1.3rem !important;
   font-weight: bold !important;
   transform: scaleY(1.2);
 }
-.application i{
+.application i {
   color: red;
   transform: rotate(-40deg);
+}
+/* =====content---4= */
+.content-4{
+  margin-top: 70px;
+}
+.content-4-text {
+  margin-left: 10px;
+}
+.content-4-text > span {
+  letter-spacing: 3px;
+  font-size: 11px;
+  color: #282828c0;
+
+}
+
+.head-ing {
+  /* margin-top: 10px; */
+}
+.head-ing p {
+  color: #000;
+  font-size: 2.2rem;
+  font-weight: bolder;
+}
+.head-ing2{
+  margin-top: 50px;
+}
+.head-ing2 p{
+  color: #000;
+  font-size: 1.3rem;
+  font-weight: bolder;
+}
+.content4-des p{
+  text-align: left;
+}
+.content4-app {
+  cursor: pointer;
+}
+.content4-app p{
+  font-weight: bold;
+}
+.content4-app i{
+  color: red;
+}
+.content-4-img{
+  width: 100%;
+}
+.content-4-img img{
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
 }
