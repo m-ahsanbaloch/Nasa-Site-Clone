@@ -146,6 +146,7 @@ input[type="text"] {
   height: 100vh;
   object-fit: cover;
   filter: brightness(35%);
+  padding: 0px !important;
 }
 .carousel-fade .active.carousel-item-end,
 .carousel-fade .active.carousel-item-start {
@@ -177,6 +178,10 @@ input[type="text"] {
   height: 100vh;
   top: 0px;
 }
+.slid-text-row{
+  padding: 0px !important;
+  margin:  0px !important;
+}
 .slid-hdn-main {
   margin-top: 35px;
   color: white;
@@ -199,13 +204,15 @@ input[type="text"] {
   text-align: justify;
   font-weight: lighter;
 }
+
 .slid-text-down {
   position: absolute;
   /* height: 0vh; */
   bottom: 0px;
-  margin-left: 20px !important;
+  /* margin-left: 20px !important; */
   letter-spacing: 5px;
   color: white;
+  padding: 0px !important;
 }
 .slide-dwn span > p {
   font-weight: bold;
@@ -214,6 +221,10 @@ input[type="text"] {
   font-weight: bolder;
   color: red;
   font-size: 14px;
+}
+.slid-txt-dwn-rw{
+  padding: 0px !important;
+  margin:  0px !important;
 }
 /* ==========slider-end=============== */
 /* =========content-1============== */
