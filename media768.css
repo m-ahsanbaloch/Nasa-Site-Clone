@@ -196,7 +196,7 @@
   
   }
   .hdnc3{
-    margin: 10px 0px 0px 50px !important;
+    margin: 10px 0px 0px 20px !important;
     font-size: 1.4rem !important;
     text-align: justify !important;
   }
@@ -208,5 +208,13 @@
         margin-left: 20px !important;
         letter-spacing: 3px !important;
         color: white;
+      }
+      .hdnc3 span>p{
+        text-align: left !important;
+        margin-top: 9px !important;
+      
+      }
+      .hdnc3{
+        margin: 10px 0px 0px 10px !important;
       }
 }
