@@ -188,7 +188,7 @@ input[type="text"] {
   font-size: 35px;
   text-align: left;
   font-weight: bold;
-  margin-left: 20px;
+  margin-left: 10px;
 }
 .slid-hdn-main span > p {
   font-size: 12px;
@@ -206,10 +206,11 @@ input[type="text"] {
 }
 
 .slid-text-down {
+  width: 90%;
   position: absolute;
   /* height: 0vh; */
   bottom: 0px;
-  /* margin-left: 20px !important; */
+  margin-left: 20px !important;
   letter-spacing: 5px;
   color: white;
   padding: 0px !important;
@@ -430,9 +431,9 @@ input[type="text"] {
 
 }
 
-.head-ing {
-  /* margin-top: 10px; */
-}
+/* .head-ing {
+  margin-top: 10px;
+} */
 .head-ing p {
   color: #000;
   font-size: 2.2rem;
