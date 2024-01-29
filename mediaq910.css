@@ -90,3 +90,29 @@
       
       }
 }
+@media only screen and (max-width: 990px){
+
+
+.slide-dwn p{
+    margin-top: 5px;
+font-size: 11px !important;
+text-align: justify;
+font-weight: lighter;
+
+}
+.slid-text-down{
+      margin-left: 20px !important;
+    /* margin-top: -50px !important; */
+    letter-spacing: 5px;
+    color: white;
+}
+.slid-hdn-main{
+    margin-top: 10px !important;
+    color: white;
+    font-size:22px !important;
+    text-align: left;
+    font-weight: bold;
+    margin-left: 20px;
+
+}
+}

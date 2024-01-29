@@ -334,8 +334,18 @@ input[type="text"] {
   filter: brightness(40%);
 }
 .right-c2 {
+  position: relative;
   width: 100%;
   /* height: 49%; */
+}
+.right-c2-txt{
+  position: absolute;
+  width: 95%;
+  top: 0px;
+  height: 100%;
+  background-color: transparent;
+  padding: 0px !important;
+  margin: 0px !important;
 }
 .right-c2 img {
   /* margin-top: 5px; */
@@ -343,7 +353,7 @@ input[type="text"] {
   width: 100%;
   /* height: 100%; */
   object-fit: cover;
-  filter: brightness(40%);
+  filter: brightness(35%);
 }
 .right-c2-2 {
   margin-top: 6px;
@@ -484,6 +494,7 @@ input[type="text"] {
   width: 95%;
   height: 400px;
   object-fit: cover;
+  margin-top: 25px !important;
   margin-left: 10px;
 }
 .head-ing-c5 p {
