@@ -607,3 +607,89 @@ input[type="text"] {
   color: red;
   margin-left: 5px;
  }
+ /* =========================================footer-----------===== */
+ .footer-rw{
+  background-color: black;
+  margin-top: 50px;
+  border-bottom: 1px solid gray;
+
+ }
+ .footer-rw{
+  margin-top: 20px;
+  padding: 40px 0px !important;
+ }
+ .flogo img{
+  width: 80px;
+ }
+ .f-content-1{
+  margin-top: 20px;
+ }
+ .foot-left{
+  margin-left: 10px;
+ }
+.fhdn p{
+  color: #fff;
+  font-size: 1.4rem;
+  font-family: interbold;
+}
+.fpara p{
+color: #8b8b8b;
+font-size: 0.9rem;
+line-height: 22px;
+}
+.fdes p{
+  color: #fff;
+  cursor: pointer;
+}
+.fdes p:hover{
+  border: 3px solid blue;
+  transition: ease 0.3s;
+  color: gray;
+
+}
+.fjoin p{
+  color: #fff;
+  cursor: pointer;
+}
+.fjoin p:hover{
+  color: gray;
+  border: 3px solid blue;
+  transition: ease 0.3s;
+
+}
+.fjoin i{
+  color: red;
+  margin-left: 10px;
+}
+.f-list1{
+  color: #fff;
+  font-size: 1rem;
+  margin-left: -20px;
+}
+.f-list1 ul{
+  list-style: none;
+
+}
+.f-list1 li:hover{
+  border: 2px solid blue;
+  transition: ease 0.3s;
+  transform: scale(1.1);
+}
+.f-list1 li{
+line-height: 35px;
+  cursor: pointer;
+}
+.icons i{
+  color: red;
+  font-size: 18px !important;
+  text-align: left !important;
+  letter-spacing: 10px !important;
+}
+.f-end{
+  background-color: black;
+}
+.f-heading-last{
+  margin-top: 30px;
+  color: rgb(190, 190, 190);
+  font-size: 13px;
+}

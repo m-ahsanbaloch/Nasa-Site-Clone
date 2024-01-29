@@ -59,6 +59,9 @@
   line-height: 40px;
 
 }
+.list-hide{
+  display: none !important;
+}
 }
 @media only screen and (max-width: 600px) {
   .slid-hdn-main {
