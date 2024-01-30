@@ -1,11 +1,1 @@
-@media only screen and (max-width: 910px) {
-    .drp-dn{
-        display: none;
-    }
-    .hamburg{
-        display: block !important;
-    }
-    .input1{
-        display: none;
-    }
-}
+@media only screen and (max-width:910px){.drp-dn{display:none}.hamburg{display:block!important}.input1{display:none}}
